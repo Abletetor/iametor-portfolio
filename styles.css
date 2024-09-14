@@ -112,7 +112,6 @@ section {
    color: var(--white);
    font-size: 2.4rem;
    margin-top: 2rem;
-   letter-spacing: 0.3rem;
    text-align: center;
    width: 50%;
    line-height: 40px;
@@ -235,6 +234,7 @@ section {
 .content p {
    color: var(--white);
    font-size: 1.5rem;
+   text-transform: none;
 }
 
 .content p:nth-of-type(2) {
@@ -285,7 +285,7 @@ section {
 }
 
 .resume .col-container .col .box p {
-   font-size: 1.9rem;
+   font-size: 1.7rem;
    color: var(--dark-gray);
    margin-top: 1rem;
    line-height: 1.5;
@@ -295,6 +295,7 @@ section {
 .resume .col-container .col .box .university {
    color: var(--light-gray);
    text-transform: capitalize;
+   font-style: italic;
 }
 
 /* resume styles  */
@@ -316,13 +317,13 @@ section {
    width: 100%;
    height: 100%;
    object-fit: cover;
+   border-radius: 5px;
 }
 
 .about .box-container .box p {
    color: var(--dark-gray);
    margin-bottom: 2rem;
-   font-size: 1.9rem;
-   letter-spacing: .1rem;
+   font-size: 1.7rem;
    height: 1.5;
    text-transform: none;
 }
@@ -362,11 +363,10 @@ section {
 }
 
 .clients .box-container .box .content p:nth-child(1) {
-   font-size: 1.9rem;
+   font-size: 1.7rem;
    color: var(--dark-gray);
    line-height: 1.5;
    padding-bottom: 2rem;
-   letter-spacing: .1rem;
    text-transform: none;
 }
 
@@ -414,11 +414,10 @@ section {
 }
 
 .services .box-container .box p {
-   font-size: 1.9rem;
+   font-size: 1.7rem;
    color: var(--dark-gray);
    margin-bottom: 2rem;
    line-height: 1.5;
-   letter-spacing: .1rem;
    text-transform: none;
 }
 
@@ -471,7 +470,7 @@ section {
 .blogs .box-container .box .content p {
    color: var(--dark-gray);
    margin-bottom: 2rem;
-   font-size: 1.9rem;
+   font-size: 1.7rem;
    text-transform: none;
 }
 
@@ -514,7 +513,7 @@ section {
    width: 100%;
    padding: 1rem 2rem;
    border-radius: .5rem;
-   font-size: 1.9rem;
+   font-size: 1.7rem;
    color: var(--dark-gray);
    margin: .5rem 0;
    resize: vertical;
@@ -527,14 +526,14 @@ section {
 }
 
 .contact .col-container .col p {
-   font-size: 1.9rem;
+   font-size: 1.7rem;
    color: var(--yellow);
    text-transform: uppercase;
    letter-spacing: .1rem;
 }
 
 .contact .col-container .col span {
-   font-size: 1.9rem;
+   font-size: 1.7rem;
    color: var(--dark-gray);
    letter-spacing: .1rem;
    text-transform: none;
@@ -569,7 +568,7 @@ section {
 }
 
 .footer p {
-   font-size: 1.9rem;
+   font-size: 1.7rem;
    color: var(--dark-gray);
    padding-top: 1rem;
    text-transform: none;
