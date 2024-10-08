@@ -386,8 +386,8 @@ section {
 /* services styles */
 .services .box-container {
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-   gap: 4rem;
+   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+   gap: 2rem;
 }
 
 .services .box-container .box {
@@ -398,7 +398,7 @@ section {
 }
 
 .services .box-container .box .icon {
-   font-size: 4rem;
+   font-size: 3rem;
    color: var(--light-bg);
    background: var(--yellow);
    border-radius: 50%;
@@ -419,6 +419,7 @@ section {
    margin-bottom: 2rem;
    line-height: 1.5;
    text-transform: none;
+   text-align: left;
 }
 
 .services .box-container .box .btn-2 {
@@ -638,6 +639,10 @@ section {
       width: 100%;
       letter-spacing: 0;
       line-height: 20px;
+   }
+
+   .services .box-container {
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
    }
 }
 
